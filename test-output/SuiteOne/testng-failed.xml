@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SuiteOne]">
+  <test thread-count="5" parallel="tests" name="TestOne(failed)">
+    <classes>
+      <class name="pfPack.tests.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testClosure"/>
+        </methods>
+      </class> <!-- pfPack.tests.LoginTest -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+</suite> <!-- Failed suite [SuiteOne] -->
